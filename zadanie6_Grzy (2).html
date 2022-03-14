@@ -1,0 +1,86 @@
+<!doctype html>
+<head>
+<title> zad 1 t2a Grzyowski </title>
+<meta> <charset="utf-8">
+</head>
+<body>
+<h2>Sposoby podłączania styli do strony (skrócone zestawienie).</h2>
+<ol>
+<b><u>Zewnętrzny</u> arkusz stylów.</b>
+<table style="border: 3px black solid;">
+<tr> 
+<td>
+<textarea rows="3" cols="60">
+<head> 
+link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+</textarea> 
+</td>
+</tr>
+</table>
+<b>Styl <u>lokalny</u> inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli 
+dopisanie arkusza do wybranego bloku treści strony.</b>
+
+<table style="border: 3px black solid;">
+<tr> 
+<td>
+<textarea rows="1" cols="70">
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea> 
+</td>
+</tr>
+</table>
+
+<b><u>Wewnętrzny</u> arkusz stylów </b>
+
+<table style="border: 3px black solid;">
+<tr> 
+<td>
+<textarea rows="7" cols="60">
+<head>
+ <style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+</textarea> 
+</td>
+</tr>
+</table>
+
+<b><u>Alternatywny</u> arkusz stylów. </b>
+
+<table style="border: 3px black solid;">
+<tr> 
+<td>
+<textarea rows="8" cols="60">
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</textarea> 
+</td>
+</tr>
+</table>
+
+<b><u>Import</u> arkusza stylów.</b>
+
+<table style="border: 3px black solid;">
+<tr> 
+<td>
+<textarea rows="3" cols="60">
+<style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea> 
+</td>
+</tr>
+</table>
+
+</ol>
+
+
+
+</body>
+</html>
