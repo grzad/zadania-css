@@ -1,13 +1,8 @@
-body {
+body {	;
 	font-size:40mm;
 	color: blue;
 }
-p.niebieskie {
-	
-}
-p.zielone {
+p { ;
 	color:green; 
-	 }
-	 p {
-font-size:50mm;
+	font-size:50mm;
 	 }		 
